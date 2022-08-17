@@ -13,6 +13,7 @@ async function setupNodeEvents(on, config) {
 
 module.exports = defineConfig({
   e2e: {
+    video: false,
     specPattern: "**/*.feature",
     supportFile: false,
     setupNodeEvents,
