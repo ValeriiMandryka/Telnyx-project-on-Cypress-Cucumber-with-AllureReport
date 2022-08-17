@@ -5,5 +5,5 @@ Given('User opens main page', () => {
     cy.visit('https://www.google.com/');
 })
 Given('Type "Google"', () => {
-    cy.xpath('//*[@class="gLFyf gsfi"]').type('Google');
+    cy.xpath('[type="text"]').type('Google');
 })
