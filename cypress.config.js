@@ -15,7 +15,8 @@ module.exports = defineConfig({
   e2e: {
     video: false,
     specPattern: "**/*.feature",
-    supportFile: false,
+    viewportWidth: 1920,
+    viewportHeight: 1080,
     setupNodeEvents,
   },
 });
