@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"0ae52d49ff725df818bc1aedcf3ab374","name":"\"Switch + save Telnyx\" form","statistic":{"failed":0,"broken":0,"skipped":0,"passed":10,"unknown":0,"total":10}}]}
+{"total":2,"items":[{"uid":"0ae52d49ff725df818bc1aedcf3ab374","name":"\"Switch + save Telnyx\" form","statistic":{"failed":0,"broken":0,"skipped":0,"passed":10,"unknown":0,"total":10}},{"uid":"ff231ab40ee80022ca52ea3a6ba3d2d6","name":"Create a free account form","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}
