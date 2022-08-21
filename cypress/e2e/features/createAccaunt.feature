@@ -6,25 +6,24 @@ Feature: Create a free account form
         And   User click on "Create a free account" into "Switch + save Telnyx" form
 
 
-    #TC11
-    #@skip
+   
     Scenario: Check redirection to "Create a free account" throu "Switch + save Telnyx" form
         Then  User should be redirected on: "https://telnyx.com/sign-up" page TC11
     #TC12
-    #@skip
+    
     Scenario: Verify  "Terms and Conditions" page
         When  User scroll down to "Terms and Conditions"
         And   User click on "Terms and Conditionst"
         Then  User should be redirected on: "https://telnyx.com/terms-and-conditions-of-service" page TC12
     #TC13
-    #@skip
+    
     Scenario: Verify  "Privacy Policy" page
         When  User scroll down to "Privacy Policy"
         And   User click on "Privacy Policy"
         Then  User should be redirected on: "https://telnyx.com/privacy-policy" page TC13
     
     #TC14
-    #@skip
+    
     Scenario: Sign up with valid cradantials
         When  User fill in form:
 
