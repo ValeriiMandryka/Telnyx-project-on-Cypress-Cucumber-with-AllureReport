@@ -1,5 +1,5 @@
 const { Given, When, And, Then } = require('@badeball/cypress-cucumber-preprocessor');
-const common = require('mocha/lib/interfaces/common');
+
 const commonPage = require('../pageObjects/commonPage');
 const createAccountPage = require('../pageObjects/createAccountPage');
 const LoginPage = require('../pageObjects/LoginPage');

@@ -1,4 +1,5 @@
 Feature: Create a free account form
+    
     Background:
         Given User opens main page
         When  User accept cookies
