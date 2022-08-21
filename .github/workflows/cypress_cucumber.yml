@@ -28,7 +28,7 @@ jobs:
       run: npm install --save-dev @cypress/browserify-preprocessor
     - name: Install reporter dev
       run: npm install --save-dev mocha-allure-reporter allure-commandline
-    - name: Run Playwright tests
+    - name: Run Cypress_cucumber tests
       run: npm run test
     - name: Generate Report
       if: always()
