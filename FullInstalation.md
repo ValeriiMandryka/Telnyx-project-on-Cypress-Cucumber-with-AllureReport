@@ -10,7 +10,7 @@ npm install cypress
 ```
 ## 1.1. Install plugin Cucumber:
 ```
-npm install @badeball/cypress-cucumber-preprocesso
+npm install @badeball/cypress-cucumber-preprocessor
 
 ```
 ## 1.2. Install cypress-browserify-preprocessor<br>
